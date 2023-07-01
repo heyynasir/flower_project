@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower</title>
+    <style>
+        .p{
+            width: 600px;
+            height: 600px;
+            background-color: black;
+            position: relative;
+            margin: auto;
+            display: block;
+            border-radius: 300px;
+
+        }
+
+        .common{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+        .blue{
+            background-color: blue;
+            border-top-right-radius: 300px;
+            border-bottom-left-radius: 300px;
+            bottom: 0;
+            right: 0;
+        }
+        .green{
+            background-color: rgb(24, 206, 212);
+            border-bottom-right-radius: 300px;
+            border-top-left-radius:300px ;
+            top: 0;
+            right : 0;
+        }
+        .lemon{
+            background-color: lime;
+            border-top-right-radius: 300px;
+            border-bottom-left-radius: 300px;
+            left: 0px;
+        }
+        .pink{
+            background-color: rgb(233, 45, 217);
+            border-top-left-radius: 300px;
+            border-bottom-right-radius:300px ;
+            bottom: 0px;
+            left: 0px;
+        }
+        .blue:hover{background: grey;}
+        .green:hover{background: orangered;}
+        .lemon:hover{background: rgb(124, 8, 8);}
+        .pink:hover{background:rgb(204, 207, 11) ;}
+        .p:hover{background: white;}
+        
+    </style>
+</head>
+<body>
+
+    <div class="p">
+        <div class="common c1 blue"></div>
+        <div class="common c2 green"></div>
+        <div class="common c3 lemon"></div>
+        <div class="common c4 pink"></div>
+    </div>
+    
+</body>
+</html>
